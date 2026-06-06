@@ -1,0 +1,6 @@
+Model,Feature_Group,Mean_Attribution,Std_Attribution
+TransformerGO+PES,ProtBERT,0.2984,0.0601
+TransformerGO+PES,ESM2,0.6856,0.0591
+TransformerGO+PES,Static,0.016,0.0106
+TransformerGO+ES,ESM2,0.9546,0.0268
+TransformerGO+ES,Static,0.0454,0.0268

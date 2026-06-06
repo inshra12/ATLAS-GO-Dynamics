@@ -1,0 +1,5 @@
+Architecture,Feature,Overall_Fmax,Overall_AUPRC,MFO_Fmax,BPO_Fmax,CCO_Fmax
+Naive,N/A,0.092,0.018,0.108,0.034,0.112
+MLP,ESD,0.312,0.207,0.257,0.106,0.337
+CNN1D,E,0.338,0.233,0.3,0.11,0.362
+Transformer,PES,0.343,0.321,0.318,0.154,0.355
