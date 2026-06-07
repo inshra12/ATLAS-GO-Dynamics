@@ -1,17 +1,13 @@
-# Protein Function Prediction
+# ATLAS-GO-Dynamics: Systematic Ablation Study for GO Term Prediction
 
-This project uses AI to predict protein functions. It tests 27 different model setups to find the best configuration.
+This repository contains the complete PyTorch implementation, data preprocessing pipelines, and ablation frameworks for our systematic study evaluating Protein Language Models (PLMs) against Molecular Dynamics features.
 
-## Repository Structure
+## 🔬 Core Architecture
+* **Models Evaluated**: ESM2, ProtBERT, and custom TransformerGO configurations.
+* **Feature Extraction**: ATLAS Molecular Dynamics (RMSF, Radius of Gyration) vs. Static Sequence Embeddings.
+* **Explainable AI (XAI)**: Integrated Gradients attribution mapping.
 
-* **configs**: Model settings files.
-* **data**: Contains the raw protein dataset.
-* **notebooks**: Jupyter test notebooks.
-* **results**: Saved metrics and charts.
-* **src**: Core Python source code.
-
-## How to Run
-
-1. Clone the repository to your computer.
-2. Run the feature extraction and splitting script inside the `src/` folder to process the raw data.
-3. Run the main training script to train the models.
+## 📊 Dataset & Scope
+* 1,289 Proteins
+* 495 Multi-Label Gene Ontology (GO) terms
+* 27 Distinct Deep Learning configurations tested
